@@ -1,4 +1,4 @@
-if (!confirm("민트블록을 허용하시겠습니까?")) throw new Error("취소됬습니다.");
+if (!confirm("3D모드로 시작하시겠습니까?")) throw new Error("취소됬습니다.");
 console.time('로드 완료')
 Entry.staticBlocks = [
     {
@@ -347,7 +347,7 @@ addBlock('text-info', '%1', {
   params: [
     {
         type: 'Text',
-        text: '민트블록 일반버전은 모든 기능을\n마음껏 사용할 수 있는 버전입니다.\n그만큼 위험할수 있으니 주의하세요.',
+        text: '3D블록 일반버전은 모든 기능을\n마음껏 사용할 수 있는 버전입니다.\n그만큼 위험할수 있으니 주의하세요.',
         align: 'center',
         color: EntryStatic.colorSet.common.TEXT,
     }
@@ -442,7 +442,7 @@ addBlock('alert', 'alert %1 %2', {
     def: [
         {
             type: 'text',
-            params: ['서울민트초코가 만들었습니다.']
+            params: ['함수바나나가 만들었습니다.']
         },
     ],
     map: {
@@ -632,7 +632,7 @@ addBlock('edit_page_title', '페이지 제목을 %1로 바꾸기 %2', {
     def: [
         {
             type: 'text',
-            params: ['헤헷']
+            params: ['3D']
         }
     ],
     map: {
